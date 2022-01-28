@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.logo1{
+    position: absolute;
+ top: 0rem;
+ left: 3rem;
+}
+
+.menu{
+    position: absolute;
+    top: 3.5rem;
+    left: 10rem;
+    list-style-type: none;
+    display: flex;
+    width: 100%; 
+    
+}
+
+.menu a{
+    color: #FD7E14 ;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 7rem;
+}
+
+.vide{
+    padding-inline-start: 20rem;
+}
+
+.separation{
+    position: absolute;
+    top: 9rem;
+    width: 1900px;
+    border: 1px solid #EEEEEE;
+}
+
+/* SECTION */
+.fond{
+    width: 1900px;
+    height: 900px;
+    margin-top: 200px;
+    background: url(img/fond.png);
+    background-repeat: no-repeat;
+}
+
+.transparence1{
+    margin-top: -53rem;
+    margin-left: 2rem;
+    width: 559px;
+	height: 800px;
+	background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.nature{
+    left: 6rem;
+    text-align:center;
+    color: white;
+    font-size: 28px;
+}
+
+h1{
+	font-style: normal;
+	font-weight: bold;
+}
+
+.line1{
+    width: 5px;
+    height: 900px;
+    margin-top: -53.3rem;
+    margin-left: 39rem;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.transparence2{
+    margin-top: -53rem;
+    margin-left: 41.5rem;
+    width: 559px;
+	height: 800px;
+	background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.projet{
+    left: 6rem;
+    text-align:center;
+    color: white;
+    font-size: 28px;
+}
+
+.line2{
+    width: 5px;
+    height: 900px;
+    margin-top: -53.2rem;
+    margin-left: 79rem;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.transparence3{
+    margin-top: -53rem;
+    margin-left: 81.5rem;
+    width: 559px;
+	height: 800px;
+	background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.prestation{
+    left: 6rem;
+    text-align:center;
+    color: white;
+    font-size: 28px;
+}
+
+.contactez{
+	margin-left: -78rem;
+	margin-top: 70.5rem;
+	cursor: pointer;
+	
+}
+
+
+/* FOOTER */
+.fontblack{
+	width: 1900px;
+	height: 240px;
+	margin-left: -82.5rem;
+	margin-top: 110rem;
+
+	background: #212121;
+}
+
+.logo2{
+	margin-top: 1rem;
+	margin-left: 7.4rem;
+}  
+
+.valeurs{
+    margin-top: -5rem;
+	margin-left: 13rem;
+	color: white;
+	font-size: 19px;
+	text-align: left;
+
+}
+
+.miniseparation{
+	width: 17.5rem;
+	height: 0px;
+	margin-top: 2rem;
+	margin-left: 9rem;
+	border: 1px solid #ffffff;
+}
+
+.infos{
+	display: flex;
+	padding-left: 9rem;
+	padding-top: 1rem;
+	font-size: 19px;
+	align-items: center;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.infos a{
+	padding-right: 1rem;
+	padding-top: 23rem;
+	font-weight: normal;
+	color: #ffffff;
+    text-decoration: none;
+	
+}
+
+.contact{
+
+	padding-left: 55rem;
+    margin-top: -11rem;
+	top: 112rem;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.contact h2{
+	font-weight: bold;
+	
+}
+
+.reseaux{
+	padding-left: 95rem;
+	margin-top: -10rem;
+	color: #ffffff;
+	font-size: 19px;
+}
+
+.reseaux h2{
+	font-weight: bold;
+}
+
+.sociaux{
+	padding-left: 94.5rem;
+	bottom: 6rem;
+}
+
+.sociaux a{
+	padding-left: 1.5rem;
+	cursor: pointer;
+}
+
+section.conteneur{
+    display: flex;
+}
+
+@media screen and (max-width: 1900px){
+    p
+    {
+        font-size: 16px;
+    }
+}
