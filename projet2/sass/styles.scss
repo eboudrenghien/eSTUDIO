@@ -1,0 +1,56 @@
+@import '../sass/variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #130A4D;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+body{}
+//HEADER
+
+nav{
+    ul{
+        position: $pos;
+        display: flex;
+        list-style-type: none;
+        left: 80px;
+        padding: 30px 50px;
+        a{
+            text-decoration: none;
+            color: #FF6B00;
+        }
+    }
+}
+
+// HEADER - DIAPO
+.slider{
+    height:1200px;
+    position: relative;
+
+    img{
+     object-fit: cover;
+     height: $taille;
+     width: $taille;
+     position: $pos;
+     top: 0;
+     left: 0;
+    }
+}
+.suivant, .precedent{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    position: $pos;
+    top: 50%;
+}
+.suivant{
+    right: 1rem;
+    }
+.precedent{
+    left: 1rem;
+    }

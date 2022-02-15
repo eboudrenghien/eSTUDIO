@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="nausicaa.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/styles.css">
+    <title>Découvrez Nausicaá 🐟</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#histoire">HISTOIRE</a></li>
+                <li><a href="#tarifs">TARIFS</a></li>
+                <li><a href="#animaux">ANIMAUX</a></li>
+                <li><a href="#plan">PLAN</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="slider">
+            <img src="assets/meduse2.JPG" alt="meduse" height="500px">
+            <img src="assets/poissonclown1.JPG.svg" alt="poissonclown">
+            <div>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+            <div class="precedent">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+        </div>
+    </header>
+    <aside class="annonce">Vous souhaitez organiser une sortie ce week-end ? Où? Vous ne savez pas ? Passionné par les poissons ? <br>
+            Nous vous recommandons d'explorer l'aquarium Nausicaá située à Boulogne-sur-mer. <br>
+            Envie d'en savoir plus sur Nausicaá? Vous êtes sur le bon site.
+    </aside>
+    <aside id="histoire">
+        <h2>HISTOIRE</h2>
+        <p>Nausicaá voit le jour le 18 mai 1991. Il est situé à Boulogne-sur-Mer dans le nord de la France. <br>
+            Nausicaá a pour valeurs le respect de l'environnement et de la nature.
+            L'aquarium comprend des dizaines d'aquariums et de terrariums, une salle d'information, une salle vidéo et des activités ludiques. <br>
+            Cet immense aquarium comprend un espace de 10 000 m². <br>
+            À cette date, Nausicaa contient 17 millions de litres de mer. <br> 
+            Plus de 58 000 animaux marins proviennent de différents pays. Plus de 1 600 espèces différentes.<br></p>
+    </aside>
+    <section>
+        <article><h2 id="tarifs">TARIFS</h2>
+        <p class="jour">BILLET 1 JOUR - TOUTES EXPOSITIONS <br>
+        28€50 - ADULTE (+12 ANS) <br>
+        21€ - ENFANT (3-12 ANS)</p>
+        <p>TARIF FAMILLE - TOUTES EXPOSITIONS <br>
+        24€ - ADULTE (+12 ANS) <br>
+        18€ - ENFANT (3-12 ANS)</p>
+        <p>TARIF SPÉCIAUX<br>
+        25€ - ADULTE (+12 ANS) <br>
+        18€ - ENFANT (3-12 ANS)</p>
+        <p>VISITE DES COULISSES <br>
+        (en complément de votre visite) <br>
+        12€ - ADULTE (+12 ANS)
+        9€90 - ENFANT (3-12 ANS)</p>
+        <p>ABONNEMENT ANNUEL <br>
+        65€ - ADULTE (+12 ANS) <br>
+        50€ - ENFANT (3-12 ANS)</p>
+        <p>LIBRET ENFANT<br>
+        6€</p>
+        </article>
+    </section>
+
+    <section>
+        <article><h2 id="plan">PLAN</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.431575375301!2d1.5923145161171053!3d50.730483879514914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc2c135521ce51%3A0xd6e845d18f81937f!2sNausica%C3%A1%20-%20Centre%20national%20de%20la%20Mer!5e0!3m2!1sfr!2sfr!4v1644937464026!5m2!1sfr!2sfr" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></article>
+            <article><h2>HORAIRES</h2>
+            <p>Ouvert tous les jours : <br><br>
+            Lundi: 9:30-18h30<br> 
+            Mardi: 9:30-18h30<br> 
+            Mercredi: 9:30-18h30<br> 
+            Jeudi: 9:30-18h30<br> 
+            Vendredi 9:30-18h30<br> 
+            Samedi: 9:30-18h30<br> 
+            Dimanche: 9:30-18h30 <br><br>
+            
+            Fermé le 25 décembre 2022 <br>
+            1er Janvier 2023, ouverture de 14 h à 18 h 30 <br>
+            </p>
+        </article>
+    </section>
+    <article><h2 id="contact">CONTACT</h2>
+    <form action="">
+        <div>
+            <label for="nom">Nom :</label>
+            <input type="text" id="name" name="nom">
+        </div>
+        <div>
+            <label for="mail">E-mail :</label>
+            <input type="email" id="mail" name="email">
+        </div>
+        <div><label for="msg">Message:</label>
+        <textarea name="message" id="msg" cols="30" rows="10"></textarea></div>
+        <div class="button">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form></article>
+
+</body>
+</html>
