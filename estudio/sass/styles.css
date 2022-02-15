@@ -1,0 +1,105 @@
+@import url(variables.scss);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 170px;
+  border: 1px solid #EEEEEE;
+}
+header .logo_header {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+header nav {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header nav li {
+  display: inline-block;
+}
+header nav a {
+  padding: 10px 50px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FD7E14;
+}
+
+section {
+  background-image: url(../assets/fond.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 200px;
+  display: flex;
+}
+section .nature {
+  position: relative;
+  width: 470px;
+  height: 675px;
+  left: 20px;
+  top: 40px;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+section .nature h1, section .nature p {
+  color: white;
+}
+section .projet {
+  position: relative;
+  width: 470px;
+  height: 675px;
+  left: 80px;
+  top: 40px;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+section .projet h1, section .projet p {
+  color: white;
+}
+section .prestation {
+  position: relative;
+  width: 470px;
+  height: 675px;
+  left: 140px;
+  top: 40px;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+section .prestation h1, section .prestation p {
+  color: white;
+}
+
+.ligne1 {
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  left: 50px;
+}
+
+.ligne2 {
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  left: 110px;
+}/*# sourceMappingURL=styles.css.map */
